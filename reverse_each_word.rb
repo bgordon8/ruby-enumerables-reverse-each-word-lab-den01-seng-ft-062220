@@ -9,14 +9,14 @@ def reverse_each_word(string)
    #end
    new_element = " "
    new_arr = string.split(" ")
-   new_arr.each do |element|
-  # new_element = element.reverse
-   #new_element.join(" ")
-  element.reverse
+   new_arr.join(" ") do |element|
+   new_element = element.reverse
+   new_element
+  
   
    end
     
 
-  p new_arr
+  p new_element
 
 end
