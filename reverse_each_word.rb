@@ -11,7 +11,7 @@ def reverse_each_word(string)
    new_arr = string.split(" ")
    new_arr.each do |element|
    new_element = element.reverse
-   new_element
+  p new_element
   
   
    end
