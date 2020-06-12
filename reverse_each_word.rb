@@ -17,6 +17,6 @@ def reverse_each_word(string)
    end
     
 
-  p new_arr
+  p new_arr.reverse
 
 end
