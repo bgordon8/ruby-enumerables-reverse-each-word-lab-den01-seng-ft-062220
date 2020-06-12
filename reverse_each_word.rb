@@ -16,8 +16,8 @@ def reverse_each_word(string)
    
   
    end
-    
-  p new_element
+    new_element.join(" ")
+  #p new_element
 
   
 
