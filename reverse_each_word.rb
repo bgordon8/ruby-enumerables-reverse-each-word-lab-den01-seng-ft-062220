@@ -7,10 +7,12 @@ def reverse_each_word(string)
   #   p sentence
   
    #end
+   
    new_element = " "
    new_arr = string.split(" ")
-   new_arr.join(" ") do |element|
-   element.reverse
+   new_arr.each do |element|
+     element.reverse
+   
    
   
   
