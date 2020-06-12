@@ -6,13 +6,13 @@ def reverse_each_word(string)
   #   sentence = new_reversed_string.join
   #   p sentence
   
+  # # end
+  # new_element = " "
+  # new_arr = string.split(" ")
+  # new_arr.each do |element|
+  # new_element = element.reverse
+  # p new_element
   # end
-  new_element = " "
-  new_arr = string.split(" ")
-  new_arr.each do |element|
-   new_element = element.reverse
-  p new_element
-   end
     
 
   
