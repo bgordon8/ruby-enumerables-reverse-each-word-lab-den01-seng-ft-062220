@@ -8,13 +8,13 @@ def reverse_each_word(string)
   
    #end
    
-   new_element = " "
+   new_element = []
    new_arr = string.split(" ")
    new_arr.each do |element|
-     element.reverse
+     new_element = element.reverse
    
    
-  
+  p new_element
   
    end
     
